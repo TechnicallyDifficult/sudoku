@@ -1,8 +1,5 @@
-.game {
-	border: 4px solid black;
-}
-
 .cell {
+	border: 2px solid black;
 	height: 32px;
 	width: 32px;
 }
