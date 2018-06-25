@@ -7,11 +7,11 @@ class Sudoku {
 		}
 	}
 
-	getRow(rowNum) {
+	getRow(rowIndex) {
 		return this.grid[rowNum - 1];
 	}
 
-	getColumn(colNum) {
-		return this.grid.map(row => row[colNum]);
+	getColumn(colIndex) {
+		return this.grid.map(row => row[colIndex - 1]);
 	}
 }
